@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_voice"
+        android:orderInCategory="100"
+        android:icon="@drawable/icon_voice"
+        android:title="语音"/>
+    <item
+        android:id="@+id/menu_image"
+        android:orderInCategory="100"
+        android:icon="@drawable/icon_image"
+        android:title="图片"/>
+    <item
+        android:id="@+id/menu_records"
+        android:orderInCategory="100"
+        android:icon="@drawable/icon_record"
+        android:title="历史消息"/>
+
+</menu>

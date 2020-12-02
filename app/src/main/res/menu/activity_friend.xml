@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/addFriend"
+        android:orderInCategory="100"
+        android:icon="@drawable/icon_add"
+        android:title="添加好友"/>
+    <item
+        android:id="@+id/selfinfo"
+        android:orderInCategory="100"
+        android:icon="@drawable/icon_info"
+        android:title="个人信息"/>
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:icon="@drawable/icon_logout"
+        android:title="注销"/>
+
+</menu>

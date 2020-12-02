@@ -1,0 +1,76 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" 
+	    android:background="@drawable/bk_login">
+	
+	    <EditText 
+	        android:id="@+id/usernameEditText"
+	        style="@style/myEditStyle"
+	        android:layout_margin="10dp"
+	        android:hint="请输入用户名"
+	        android:singleLine="true"
+	        />
+	    <EditText 
+	        android:id="@+id/passwordEditText"
+	        style="@style/myEditStyle"
+	        android:layout_margin="10dp"
+	        android:hint="请输入密码"
+	        android:singleLine="true"
+	        android:password="true"
+	        />
+		
+	    <RelativeLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="top"
+	        >
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="12dp"
+	            android:orientation="vertical"
+	            >
+		        <TextView 
+		            android:id="@+id/registerText"
+		            style="@style/myTextStyle"
+		            android:layout_width="wrap_content"
+		            android:textColor="#FFFFFF"
+		            android:textSize="15sp"
+		            android:layout_marginTop="0dp"
+		            android:text="新用户注册"
+		            />
+		        <TextView 
+		            android:id="@+id/setting"
+		            style="@style/myTextStyle"
+		            android:layout_width="wrap_content"
+		            android:textColor="#FFFFFF"
+		            android:layout_marginTop="5dp"
+		            android:textSize="15sp"
+		            android:text="服务器设置"
+		            />
+		       
+	        </LinearLayout>
+	        <Button 
+	            android:id="@+id/loginButton"
+	            style="@style/myButtonStyle"
+	            android:layout_height="50dp"
+	            android:layout_marginTop="0dp"
+	            android:layout_marginRight="10dp"
+	            android:layout_alignParentRight="true"
+	            android:text="      登陆      "/>
+	    </RelativeLayout>
+	</LinearLayout>
+    
+    <ImageView 
+        android:id="@+id/welcomView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/welcom"/>
+</RelativeLayout>
